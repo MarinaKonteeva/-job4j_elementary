@@ -6,7 +6,6 @@ public class ChessBoard {
         || (x1 > 7) || (x2 > 7) || (y1 > 7) || (y2 > 7)) {
             return 0;
         }
-
         return (Math.abs(x2 - x1) == Math.abs(y2 - y1)) ? Math.abs(x2 - x1) : 0;
     }
 }
